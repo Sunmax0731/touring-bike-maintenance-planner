@@ -1,7 +1,21 @@
 {
   "product": "touring-bike-maintenance-planner",
+  "repository": "Sunmax0731/touring-bike-maintenance-planner",
+  "githubUrl": "https://github.com/Sunmax0731/touring-bike-maintenance-planner",
   "tag": "v0.1.0-alpha.1",
-  "status": "pending-release",
+  "releaseUrl": "https://github.com/Sunmax0731/touring-bike-maintenance-planner/releases/tag/v0.1.0-alpha.1",
+  "prerelease": true,
+  "assetCount": 3,
+  "assets": [
+    "manual-test.md",
+    "strict-manual-test-addendum.md",
+    "touring-bike-maintenance-planner-docs.zip"
+  ],
+  "latestCheck": {
+    "exitCode": 1,
+    "isLatest": false,
+    "evidence": "releases/latest returned 404 or did not return this prerelease tag"
+  },
   "manualTest": "not-run-by-codex",
-  "generatedAt": "2026-05-07T23:57:32Z"
+  "checkedAt": "2026-05-07T23:57:44Z"
 }
