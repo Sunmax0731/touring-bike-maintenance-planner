@@ -1,0 +1,58 @@
+{
+  "product": "touring-bike-maintenance-planner",
+  "generatedAt": "2026-05-07T23:57:32Z",
+  "manualTest": "not-run-by-codex",
+  "gradeScale": [
+    "S+",
+    "S-",
+    "A+",
+    "A-",
+    "B+",
+    "B-",
+    "C+",
+    "C-",
+    "D+",
+    "D-"
+  ],
+  "qcdsDefinition": {
+    "Quality": "実装、開発docs、ユーザーdocs、security/privacy、traceability、代表シナリオの品質",
+    "Cost": "追加環境、運用負荷、保守容易性",
+    "Delivery": "release checklist、docs ZIP、prerelease、asset、evidence",
+    "Satisfaction": "ユーザーが迷わず次アクションへ進めるか"
+  },
+  "ratings": {
+    "Quality": {
+      "grade": "S-",
+      "evidence": [
+        "representative-suite",
+        "required-docs",
+        "automated-tests"
+      ]
+    },
+    "Cost": {
+      "grade": "S-",
+      "evidence": [
+        "node-only-validation",
+        "no-global-install"
+      ]
+    },
+    "Delivery": {
+      "grade": "S-",
+      "evidence": [
+        "docs-zip",
+        "release-checklist",
+        "release-evidence"
+      ]
+    },
+    "Satisfaction": {
+      "grade": "S-",
+      "evidence": [
+        "manual-test-ready",
+        "user-guide",
+        "installation-guide"
+      ]
+    }
+  },
+  "gradeCapReason": "manual-test-not-run-by-codex",
+  "belowAMinus": []
+}

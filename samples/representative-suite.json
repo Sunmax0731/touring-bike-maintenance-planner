@@ -1,0 +1,90 @@
+{
+  "product": "touring-bike-maintenance-planner",
+  "generatedAt": "2026-05-07T23:57:32Z",
+  "scenarios": [
+    {
+      "id": "happy-path",
+      "records": [
+        {
+          "title": "ツーリング計画・バイク整備管理",
+          "vehicle": "ツーリング計画・バイク整備管理 vehicle",
+          "nextAction": "次の走行前に確認すべき整備タスクを抽出する",
+          "mileage": "ツーリング計画・バイク整備管理 mileage",
+          "reviewDate": "ツーリング計画・バイク整備管理 reviewDate",
+          "id": "hp-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "missing-required",
+      "records": [
+        {
+          "vehicle": "ツーリング計画・バイク整備管理 vehicle",
+          "nextAction": "次の走行前に確認すべき整備タスクを抽出する",
+          "mileage": "ツーリング計画・バイク整備管理 mileage",
+          "reviewDate": "ツーリング計画・バイク整備管理 reviewDate",
+          "id": "missing-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "warning",
+      "records": [
+        {
+          "title": "ツーリング計画・バイク整備管理",
+          "vehicle": "ツーリング計画・バイク整備管理 vehicle",
+          "nextAction": "次の走行前に確認すべき整備タスクを抽出する",
+          "reviewDate": "ツーリング計画・バイク整備管理 reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      }
+    },
+    {
+      "id": "mixed-batch",
+      "records": [
+        {
+          "title": "ツーリング計画・バイク整備管理",
+          "vehicle": "ツーリング計画・バイク整備管理 vehicle",
+          "nextAction": "次の走行前に確認すべき整備タスクを抽出する",
+          "mileage": "ツーリング計画・バイク整備管理 mileage",
+          "reviewDate": "ツーリング計画・バイク整備管理 reviewDate",
+          "id": "mixed-ok-001"
+        },
+        {
+          "title": "ツーリング計画・バイク整備管理",
+          "vehicle": "ツーリング計画・バイク整備管理 vehicle",
+          "mileage": "ツーリング計画・バイク整備管理 mileage",
+          "reviewDate": "ツーリング計画・バイク整備管理 reviewDate",
+          "id": "mixed-bad-001"
+        },
+        {
+          "title": "ツーリング計画・バイク整備管理",
+          "vehicle": "ツーリング計画・バイク整備管理 vehicle",
+          "nextAction": "次の走行前に確認すべき整備タスクを抽出する",
+          "reviewDate": "ツーリング計画・バイク整備管理 reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      }
+    }
+  ]
+}
