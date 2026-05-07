@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ツーリング計画・バイク整備管理</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main data-product-root="touring-bike-maintenance-planner" class="shell">
+    <header class="topbar">
+      <div>
+        <h1>ツーリング計画・バイク整備管理</h1>
+        <p>整備ログ、消耗品、ツーリング前チェックをまとめるWeb管理ツール</p>
+      </div>
+      <button id="run-review" type="button">レビュー実行</button>
+    </header>
+    <section class="workspace">
+      <div class="panel">
+        <h2>代表シナリオ</h2>
+        <ul id="scenario-list"></ul>
+      </div>
+      <div class="panel">
+        <h2>次アクション</h2>
+        <p id="next-action">次の走行前に確認すべき整備タスクを抽出する</p>
+        <output id="result">未実行</output>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

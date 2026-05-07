@@ -1,0 +1,10 @@
+{
+  "name": "touring-bike-maintenance-planner",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run-tests.js",
+    "validate": "node src/cli/index.js samples/representative-suite.json"
+  }
+}

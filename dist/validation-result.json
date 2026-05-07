@@ -1,0 +1,97 @@
+{
+  "product": "touring-bike-maintenance-planner",
+  "domain": "WebApp",
+  "generatedAt": "2026-05-07T23:57:33.267Z",
+  "totals": {
+    "passes": 2,
+    "failures": 2,
+    "warnings": 2
+  },
+  "evaluations": [
+    {
+      "id": "happy-path",
+      "summary": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      },
+      "results": [
+        {
+          "id": "hp-001",
+          "status": "pass",
+          "missing": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "missing-required",
+      "summary": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      },
+      "results": [
+        {
+          "id": "missing-001",
+          "status": "fail",
+          "missing": [
+            "title"
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "id": "warning",
+      "summary": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      },
+      "results": [
+        {
+          "id": "warn-001",
+          "status": "warning",
+          "missing": [],
+          "warnings": [
+            "mileage"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed-batch",
+      "summary": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      },
+      "results": [
+        {
+          "id": "mixed-ok-001",
+          "status": "pass",
+          "missing": [],
+          "warnings": []
+        },
+        {
+          "id": "mixed-bad-001",
+          "status": "fail",
+          "missing": [
+            "nextAction"
+          ],
+          "warnings": []
+        },
+        {
+          "id": "warn-001",
+          "status": "warning",
+          "missing": [],
+          "warnings": [
+            "mileage"
+          ]
+        }
+      ]
+    }
+  ],
+  "closedAlphaReady": true
+}
