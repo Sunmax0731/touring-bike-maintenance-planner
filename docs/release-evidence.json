@@ -17,5 +17,22 @@
     "evidence": "releases/latest returned 404 or did not return this prerelease tag"
   },
   "manualTest": "not-run-by-codex",
-  "checkedAt": "2026-05-07T23:57:44Z"
+  "checkedAt": "2026-05-07T23:57:44Z",
+  "latest": false,
+  "platformRuntimeGate": "dist/platform-runtime-gate-result.json",
+  "platformType": "browser-web",
+  "qcdsEvaluation": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-",
+    "capReason": "manual-test-not-run-by-codex"
+  },
+  "github": {
+    "repo": "Sunmax0731/touring-bike-maintenance-planner",
+    "url": "https://github.com/Sunmax0731/touring-bike-maintenance-planner",
+    "releaseUrl": "https://github.com/Sunmax0731/touring-bike-maintenance-planner/releases/tag/v0.1.0-alpha.1",
+    "prerelease": true,
+    "latest": false
+  }
 }

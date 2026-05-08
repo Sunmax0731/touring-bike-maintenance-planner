@@ -1,0 +1,13 @@
+{
+  "product": "touring-bike-maintenance-planner",
+  "title": "ツーリング計画・バイク整備管理",
+  "domain": "WebApp",
+  "ideaNo": 3,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
