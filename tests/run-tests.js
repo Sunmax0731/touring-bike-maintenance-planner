@@ -110,7 +110,7 @@ import fs from "node:fs";
         method: "static-html-dom-equivalent",
         notBlank: html.trim().length > 400,
         markers: ["data-product-root", "run-review", "scenario-list"],
-        checkedAt: new Date().toISOString(),
+        checkedAt: "stable-web-smoke",
         manualBrowserTest: "not-run-by-codex"
       };
       fs.writeFileSync("dist/web-smoke-result.json", JSON.stringify(smoke, null, 2) + "\n", "utf8");

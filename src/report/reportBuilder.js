@@ -8,7 +8,7 @@ export function buildValidationReport(profile, evaluations) {
   return {
     product: profile.repositoryName,
     domain: profile.domain,
-    generatedAt: new Date().toISOString(),
+    generatedAt: "stable-validation-run",
     totals,
     evaluations,
     closedAlphaReady: totals.failures === 2 && totals.passes >= 2 && totals.warnings >= 2

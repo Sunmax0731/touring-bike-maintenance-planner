@@ -1,7 +1,7 @@
 {
   "product": "touring-bike-maintenance-planner",
   "domain": "WebApp",
-  "generatedAt": "2026-05-07T23:57:45.390Z",
+  "generatedAt": "stable-validation-run",
   "totals": {
     "passes": 2,
     "failures": 2,
