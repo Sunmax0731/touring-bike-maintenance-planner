@@ -54,5 +54,23 @@
     }
   },
   "gradeCapReason": "manual-test-not-run-by-codex",
-  "belowAMinus": []
+  "belowAMinus": [],
+  "grades": {
+    "Quality": "S-",
+    "Cost": "S-",
+    "Delivery": "S-",
+    "Satisfaction": "S-"
+  },
+  "manualTestStatus": "not-run-by-codex",
+  "manualTestCapApplied": true,
+  "platformRuntimeGate": {
+    "product": "touring-bike-maintenance-planner",
+    "platformType": "browser-web",
+    "pass": true,
+    "method": "runtime-gate",
+    "manualTest": "not-run-by-codex",
+    "index": "public/index.html",
+    "browser": "chrome.exe",
+    "evidence": "dist/web-smoke-result.json"
+  }
 }

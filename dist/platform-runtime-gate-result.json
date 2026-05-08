@@ -1,0 +1,10 @@
+{
+  "product": "touring-bike-maintenance-planner",
+  "platformType": "browser-web",
+  "pass": true,
+  "method": "runtime-gate",
+  "manualTest": "not-run-by-codex",
+  "index": "public/index.html",
+  "browser": "chrome.exe",
+  "evidence": "dist/web-smoke-result.json"
+}

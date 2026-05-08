@@ -4,7 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node tests/run-tests.js",
-    "validate": "node src/cli/index.js samples/representative-suite.json"
+    "test": "node tests/run-tests.js && node tools/platform-runtime-gate.mjs && node tools/closed-alpha-guard.mjs",
+    "validate": "node src/cli/index.js samples/representative-suite.json",
+    "platform:gate": "node tools/platform-runtime-gate.mjs",
+    "closed-alpha:guard": "node tools/closed-alpha-guard.mjs"
   }
 }
